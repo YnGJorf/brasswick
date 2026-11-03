@@ -29,7 +29,9 @@ export default function Scene() {
       }
       const b = new maplibregl.LngLatBounds()
       LISTINGS.forEach((l) => b.extend([l.lon, l.lat]))
-      m.fitBounds(b, { padding: { top: 290, bottom: Math.round(window.innerHeight * 0.4) + 20, left: 40, right: 40 }, duration: 0, maxZoom: 12 })
+      const head = document.querySelector('.scene-head')?.getBoundingClientRect().bottom ?? 280
+      const sheet = document.querySelector('.sheet')?.getBoundingClientRect().top ?? window.innerHeight * 0.6
+      m.fitBounds(b, { padding: { top: Math.round(head) + 24, bottom: Math.round(window.innerHeight - sheet) + 48, left: 44, right: 44 }, duration: 0, maxZoom: 12 })
     })
     return () => m.remove()
   }, [])

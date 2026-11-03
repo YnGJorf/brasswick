@@ -1,0 +1,15 @@
+import { chromium } from 'playwright-core'
+const B = 'https://brasswick.pages.dev'
+const b = await chromium.launch({ executablePath: '/usr/bin/google-chrome', args: ['--no-sandbox','--use-angle=swiftshader','--enable-unsafe-swiftshader'] })
+const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true })
+const p = await ctx.newPage()
+await p.goto(B + '/?phase=dusk#/scene'); await p.waitForTimeout(7000); await p.screenshot({ path: 'screenshots/v2-1-scene.png' })
+await p.goto(B + '/?phase=night#/book/music-resource-center'); await p.waitForTimeout(3000)
+await p.evaluate(() => window.scrollTo(0, document.body.scrollHeight)); await p.waitForTimeout(800)
+await p.screenshot({ path: 'screenshots/v2-2-booking.png' })
+await p.goto(B + '/?phase=day#/plan'); await p.waitForTimeout(3000)
+await p.fill('input[placeholder^="Song"]', 'Porchlight Hours')
+await p.click('text=Build my plan'); await p.waitForTimeout(2000)
+await p.evaluate(() => window.scrollTo(0, 330)); await p.waitForTimeout(800)
+await p.screenshot({ path: 'screenshots/v2-3-release-plan.png' })
+await b.close()
