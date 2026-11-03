@@ -1,0 +1,137 @@
+[
+ {
+  "name": "Leppert Photography",
+  "kind": "photo",
+  "lat": 39.2680191,
+  "lon": -84.2594244,
+  "address": "Karl Brown Way, Loveland",
+  "website": null,
+  "source": "https://www.openstreetmap.org/node/669637546"
+ },
+ {
+  "name": "The PPS Group",
+  "kind": "video",
+  "lat": 39.0866357,
+  "lon": -84.5089651,
+  "address": "Cincinnati",
+  "website": "https://www.theppsgroup.com/",
+  "source": "https://www.openstreetmap.org/node/7594321479"
+ },
+ {
+  "name": "Constance Sanders Photography",
+  "kind": "photo",
+  "lat": 39.1030305,
+  "lon": -84.4808402,
+  "address": "355 Taylor Avenue, Bellevue",
+  "website": "https://www.consanphotos.com/about.html",
+  "source": "https://www.openstreetmap.org/node/8944633677"
+ },
+ {
+  "name": "Selfie Cincy",
+  "kind": "photo",
+  "lat": 39.1103097,
+  "lon": -84.5117869,
+  "address": "1316 Main Street, Cincinnati",
+  "website": "https://www.selfiecincy.com/",
+  "source": "https://www.openstreetmap.org/node/12150642991"
+ },
+ {
+  "name": "4th Floor Creative",
+  "kind": "video",
+  "lat": 39.1118761,
+  "lon": -84.5124798,
+  "address": "1417 Main Street, Cincinnati",
+  "website": "https://4thfloorcreative.com/",
+  "source": "https://www.openstreetmap.org/node/12156865783"
+ },
+ {
+  "name": "Mark Denney Photography",
+  "kind": "photo",
+  "lat": 39.183586,
+  "lon": -84.5888351,
+  "address": "3050 Lancer Lane, Cincinnati",
+  "website": null,
+  "source": "https://www.openstreetmap.org/node/13013035887"
+ },
+ {
+  "name": "Nicolae Pop Photography",
+  "kind": "photo",
+  "lat": 39.1068307,
+  "lon": -84.5052314,
+  "address": "838 Reedy Street, Cincinnati",
+  "website": "https://www.npopphotography.com",
+  "source": "https://www.openstreetmap.org/node/13609605517"
+ },
+ {
+  "name": "Say Yes to Jess",
+  "kind": "photo",
+  "lat": 39.130838,
+  "lon": -84.5377226,
+  "address": "2701 Spring Grove Avenue, Cincinnati",
+  "website": "https://www.sayyestojess.com/",
+  "source": "https://www.openstreetmap.org/node/13928993260"
+ },
+ {
+  "name": "Casual Music",
+  "kind": "studio",
+  "lat": 39.2277816,
+  "lon": -84.3762478,
+  "address": "9420 Towne Square Ave, Blue Ash, OH",
+  "website": "https://www.casualmusicstudio.com/",
+  "source": "https://www.casualmusicstudio.com/"
+ },
+ {
+  "name": "Cincy Sound Studios",
+  "kind": "studio",
+  "lat": 39.3236218,
+  "lon": -84.3611771,
+  "address": "8947 Cincinnati Columbus Rd, West Chester Township, OH",
+  "website": "https://cincysoundstudios.com/",
+  "source": "https://cincysoundstudios.com/"
+ },
+ {
+  "name": "Music Resource Center",
+  "kind": "studio",
+  "lat": 39.1329188,
+  "lon": -84.4760625,
+  "address": "3032 Woodburn Ave, Cincinnati, OH",
+  "website": "https://mrccinci.org/studio-services/",
+  "source": "https://mrccinci.org/studio-services/"
+ },
+ {
+  "name": "One Louder Studio",
+  "kind": "studio",
+  "lat": 39.1324198,
+  "lon": -84.5090257,
+  "address": "2818 Vine St, Cincinnati, OH",
+  "website": null,
+  "source": "https://cincinnatigrid.com/en/directory/recording-and-rehearsal-studios"
+ },
+ {
+  "name": "Ambient Studios",
+  "kind": "studio",
+  "lat": 39.1227694,
+  "lon": -84.4925783,
+  "address": "2303 Gilbert Ave, Cincinnati, OH",
+  "website": null,
+  "source": "https://cincinnatigrid.com/en/directory/recording-and-rehearsal-studios"
+ },
+ {
+  "name": "Audition Room 513",
+  "kind": "studio",
+  "lat": 39.0956352,
+  "lon": -84.5245275,
+  "address": "700 W Pete Rose Way, Cincinnati, OH",
+  "website": null,
+  "source": "https://cincinnatigrid.com/en/directory/recording-and-rehearsal-studios"
+ },
+ {
+  "name": "Sound Images",
+  "kind": "studio",
+  "lat": 39.1031421,
+  "lon": -84.5099289,
+  "address": "602 Main St, Cincinnati, OH",
+  "website": null,
+  "source": "https://cincinnatigrid.com/en/directory/recording-and-rehearsal-studios"
+ }
+]
