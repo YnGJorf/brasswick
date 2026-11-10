@@ -15,3 +15,10 @@ body { font-family: var(--sans); -webkit-font-smoothing: antialiased; letter-spa
 .chip { border-radius: 999px; }
 button, .cta, .chip, .card { transition: transform 280ms var(--ease-spring), opacity 280ms var(--ease-spring), background-color 280ms var(--ease-spring); }
 button:active, .cta:active, .chip:active { transform: scale(0.97); }
+/* Bottom tab bar: near-opaque dark frosted so labels stay readable over content */
+.chapters {
+  background: rgba(27, 25, 22, 0.94) !important;
+  backdrop-filter: saturate(180%) blur(24px) !important; -webkit-backdrop-filter: saturate(180%) blur(24px) !important;
+  border: 0.5px solid rgba(237, 230, 218, 0.12);
+  box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.7);
+}
